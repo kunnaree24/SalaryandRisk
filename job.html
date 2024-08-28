@@ -7,14 +7,12 @@
 	src="https://gradio.s3-us-west-2.amazonaws.com/4.42.0/gradio.js"
     ></script>
     <style>
-        /* กำหนดสีของหัวข้อให้เป็นสีฟ้าเข้ม */
         h1 {
             color: darkblue;
             text-align: center;
             margin-bottom: 20px;
         }
 
-        /* จัดตำแหน่ง output ให้อยู่ข้างล่าง */
         .gradio-container {
             display: flex;
             flex-direction: column;
@@ -28,17 +26,10 @@
 </head>
 <body>
     <div class="gradio-container">
-        <!-- เปลี่ยนหัวข้อเป็น "Future Salary and Automation Risk Prediction" -->
         <h1>Future Salary and Automation Risk Prediction</h1>
 
         <!-- Embed Gradio app -->
         <gradio-app src="https://kunnaree-job.hf.space"></gradio-app>
-        
-        <!-- จัดตำแหน่งของ output -->
-        <div class="gradio-output">
-            <!-- Output จะถูกแสดงในตำแหน่งนี้ -->
-        </div>
     </div>
 </body>
 </html>
-
